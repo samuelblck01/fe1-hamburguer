@@ -1,0 +1,45 @@
+img{
+    display: block;
+    position: relative;
+}
+#pao-topo{
+   top: 0 ; 
+    z-index: 9 ;
+    transform: translateX(50%);
+
+}
+#queijo{
+    position: absolute;
+    top: 80px ;
+    z-index: 8;
+    transform: translateX(41%); 
+} 
+
+#tomate{
+    position: absolute;
+    top: 120px;
+    z-index: 7;
+    transform: translateX(46%);
+    
+    
+}
+
+#hamburguer{
+    position: absolute;
+    top: 130px;
+    z-index: 6;
+    transform: translateX(48%);
+} 
+
+#queijo-2{
+    position: absolute;
+    top: 230px;
+    z-index: 0;
+    transform: translateX(41%);
+} 
+#pao-fundo{
+    position: absolute;
+    top: 250px;
+    z-index: -1;
+    transform: translateX(48%);
+} 
